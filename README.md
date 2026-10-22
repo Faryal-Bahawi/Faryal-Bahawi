@@ -1,31 +1,30 @@
 ## Hi, I'm Faryal
 
-I'm a data science graduate with an M.S. from the University of New Haven. The part of machine learning I enjoy most is the part that's easy to skip: checking whether a model's output is actually right, not just whether it looks right.
+I recently finished my M.S. in Data Science at the University of New Haven, and the part of machine learning I care about most is the part that's easy to skip: checking whether a model's answer is actually right, not just whether it sounds right.
 
-I came to data science from medicine and finance, and I've worked with real program data at the International Rescue Committee and the International Organization for Migration. That background shapes how I work. I set baselines first, measure carefully, and write down what didn't work as well as what did.
+I didn't take the usual road here. I studied medicine first, then finance, and along the way I worked with real program data at the International Rescue Committee and the International Organization for Migration. Seeing how much rides on that kind of data changed how I work. I build a simple baseline before anything fancy, I measure everything, and I write down what didn't work as carefully as what did.
 
-### What I work on
+These days I spend most of my time on:
 
-- **Evaluating AI systems:** annotation rubrics for LLM output, factual grounding checks, hallucination detection, and benchmarking with mAP, F1, precision/recall and AUC
-- **NLP and LLMs:** retrieval-augmented generation (RAG), dense retrieval with Sentence-BERT, instruction-tuned models such as Gemma
-- **Computer vision:** object detection with YOLOv8 and transfer learning
-- **Data engineering and BI:** ETL pipelines on AWS (S3, EC2, Athena), Mage.ai orchestration, Power BI dashboards
+- **Evaluating AI systems.** Writing rubrics for LLM answers, checking whether responses are grounded in their sources, catching hallucinations, and benchmarking models properly.
+- **NLP and LLMs.** Retrieval-augmented generation, Sentence-BERT embeddings, and instruction-tuned models like Gemma.
+- **Computer vision.** Object detection with YOLOv8 and transfer learning.
+- **Data engineering.** Cloud pipelines on AWS with Mage.ai, and Power BI dashboards on top.
 
-### Selected projects
+### A few things I've built
 
-| Project | What it is | Result |
-|---|---|---|
-| [UniGuide AI](https://github.com/Faryal-Bahawi/UniGuide-AI-Admissions-QA-Powered-by-RAG) | RAG question-answering system for university admissions | 3.75 / 5 average on a 5-point rubric; a retrieval fix lifted failing questions from 2.0 to 5.0 |
-| [Campus Signage Detection](https://github.com/Faryal-Bahawi/Campus-Sign-Detection-yolov8) | YOLOv8 detector trained on campus photos I collected and labeled | mAP50 from 0.001 at baseline to 0.740 |
-| [Drug-Drug Interaction Predictor](https://faryal-bahawi.netlify.app/#projects) | Graph neural network on FDA adverse-event (FAERS) data | 78.1% AUC, built on top of classical baselines |
-| [Ride Pulse](https://github.com/Faryal-Bahawi/AWS-Ride-Analytics-Platform) | Team project: lakehouse for ride-sharing analytics on AWS | About 35% fewer data inconsistencies after validation |
+**[Drug-Drug Interaction Predictor](https://github.com/Faryal-Bahawi/drug-interaction-predictor).** A graph neural network trained on FDA adverse-event reports that estimates whether two medications are likely to interact. It reaches 78.1% AUC, and there's a small Streamlit app where you can type in two drug names and try it.
 
-<!-- When the drug-interaction repository is public, replace its link above with the repository link. -->
+**[UniGuide AI](https://github.com/Faryal-Bahawi/UniGuide-AI-Admissions-QA-Powered-by-RAG).** A question-answering assistant for university admissions that answers only from official documents. Gemma-2b-it averaged 3.75 out of 5 on my evaluation rubric, compared with 1.0 for a DistilGPT2 baseline.
 
-### Tools I use
+**[Campus Signage Detection](https://github.com/Faryal-Bahawi/Campus-Sign-Detection-yolov8).** A YOLOv8 model that recognizes signs around campus, trained on about 100 photos I took and labeled myself.
 
-Python (pandas, NumPy, scikit-learn, PyTorch, PyTorch Geometric), SQL, PySpark, HuggingFace Transformers, AWS, Mage.ai, MongoDB, Power BI, Jupyter, Git
+**[Ride Pulse](https://github.com/Faryal-Bahawi/AWS-Ride-Analytics-Platform).** A team project that turns raw ride-sharing data into a small lakehouse on AWS, queried with Athena and visualized in Power BI.
 
-### Get in touch
+### Tools I reach for
 
-[Portfolio](https://faryal-bahawi.netlify.app) | [LinkedIn](https://www.linkedin.com/in/faryal-bahawi-28027b205/) | [Email](mailto:faryalbahawi963@gmail.com)
+Python (pandas, NumPy, scikit-learn, PyTorch, PyTorch Geometric), SQL, PySpark, HuggingFace Transformers, AWS, Mage.ai, MongoDB, Power BI, Streamlit, Jupyter and Git.
+
+### Say hello
+
+I'm open to data science, ML and AI evaluation roles. You can find more about me on my [portfolio](https://faryal-bahawi.netlify.app), connect with me on [LinkedIn](https://www.linkedin.com/in/faryal-bahawi-28027b205/), or just [email me](mailto:faryalbahawi963@gmail.com).
